@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(55, 55, 173), antiquewhite);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    color: darkblue;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    border: 5px darkblue solid;
+}
+
+button {
+    background-color: antiquewhite;
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    height: 30%;
+    padding: 20px;
+    border: 2px white solid;
+    box-shadow: 3px 3px 3px 3px rgb(55, 55, 173);
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+    }
+    
+    button {
+        width: 60%;
+        height: 30%;
+    }
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+    
+    h4 {
+        font-size: 1.4rem;
+    }
+    
+    button {
+        width: 60%;
+        height: 30%;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+    
+    h4 {
+        font-size: 1.4rem;
+    }
+    
+    section {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: auto;
+    }
+    
+    button {
+        margin: 20px auto;
+        width: 40%;
+        height: 30%;
+        padding: 20px;
+    }
+  }
+  
